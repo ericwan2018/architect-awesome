@@ -1,31 +1,31 @@
-<mxfile host="app.diagrams.net" modified="2021-02-19T09:20:13.939Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="aRs_U8ugql3rvU0KIjmX" version="14.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-19T09:38:18.086Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="J-rtesKoBTIsdrpUc0R1" version="14.2.9" type="github">
   <diagram id="sN1rt2vFc1GLKW9EGNoP" name="第 1 页">
-    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="713" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="OB8H3D4eKz52UWN7a_ga-1" value="打榜" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="110" y="100" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="OB8H3D4eKz52UWN7a_ga-2" value="投票存储" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#9AC7BF;" vertex="1" parent="1">
+        <mxCell id="OB8H3D4eKz52UWN7a_ga-2" value="投票存储" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#9AC7BF;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="140" y="401" width="60" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="OB8H3D4eKz52UWN7a_ga-3" value="中转系统" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=#7ea6e0;" vertex="1" parent="1">
+        <mxCell id="OB8H3D4eKz52UWN7a_ga-3" value="中转系统" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=#7ea6e0;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="520" y="100" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="OB8H3D4eKz52UWN7a_ga-4" value="榜单写" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="440" y="299" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="OB8H3D4eKz52UWN7a_ga-5" value="用户数据写" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#666666;fillColor=#CC99FF;" vertex="1" parent="1">
+        <mxCell id="OB8H3D4eKz52UWN7a_ga-5" value="用户数据写" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#666666;fillColor=#CC99FF;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="603" y="298" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="OB8H3D4eKz52UWN7a_ga-6" value="榜单存储" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#9AC7BF;" vertex="1" parent="1">
+        <mxCell id="OB8H3D4eKz52UWN7a_ga-6" value="榜单存储" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#9AC7BF;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="470" y="439" width="60" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="OB8H3D4eKz52UWN7a_ga-7" value="用户数据&lt;br&gt;存储" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#9AC7BF;" vertex="1" parent="1">
+        <mxCell id="OB8H3D4eKz52UWN7a_ga-7" value="用户数据&lt;br style=&quot;font-size: 14px;&quot;&gt;存储" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#9AC7BF;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="638" y="438" width="60" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="OB8H3D4eKz52UWN7a_ga-8" value="流水记录" style="shape=tape;whiteSpace=wrap;html=1;gradientColor=#97d077;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="OB8H3D4eKz52UWN7a_ga-8" value="流水记录" style="shape=tape;whiteSpace=wrap;html=1;gradientColor=#97d077;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="260" y="220" width="140" height="100" as="geometry" />
         </mxCell>
         <mxCell id="OB8H3D4eKz52UWN7a_ga-9" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="OB8H3D4eKz52UWN7a_ga-1">
@@ -109,17 +109,17 @@
         <mxCell id="OB8H3D4eKz52UWN7a_ga-26" value="打榜" style="rounded=1;whiteSpace=wrap;html=1;gradientColor=#b3b3b3;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="110" y="100" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="OB8H3D4eKz52UWN7a_ga-27" value="打榜" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#666666;fillColor=#CC99FF;" vertex="1" parent="1">
+        <mxCell id="OB8H3D4eKz52UWN7a_ga-27" value="打榜" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#666666;fillColor=#CC99FF;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="110" y="100" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="OB8H3D4eKz52UWN7a_ga-28" value="榜单写" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#666666;fillColor=#CC99FF;" vertex="1" parent="1">
+        <mxCell id="OB8H3D4eKz52UWN7a_ga-28" value="榜单写" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#666666;fillColor=#CC99FF;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="440" y="299" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="OB8H3D4eKz52UWN7a_ga-29" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.8_point_star;strokeWidth=1;gradientColor=none;rotation=15;fillColor=#FF3333;" vertex="1" parent="1">
           <mxGeometry x="430" y="102" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="OB8H3D4eKz52UWN7a_ga-31" value="投票消息中转超时或失败导致用户数据和榜单不一致" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;fontStyle=0;fontColor=#FF0000;fontFamily=Helvetica;" vertex="1" parent="1">
-          <mxGeometry x="360" y="40" width="190" height="20" as="geometry" />
+        <mxCell id="OB8H3D4eKz52UWN7a_ga-31" value="投票消息中转超时或失败导致用户数据和榜单不一致" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=0;fontColor=#FF0000;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="350" y="40" width="200" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
