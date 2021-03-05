@@ -1,1 +1,127 @@
-<mxfile host="app.diagrams.net" modified="2021-03-05T04:34:20.114Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" version="14.4.2" etag="6ElX24A0nEu6d700ZDWH" type="github"><diagram id="oqCj3i5Yv13ijCg03wcg">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-03-05T05:39:31.137Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="TU7r8V8HV1fREWAZn3PP" version="14.4.2" type="github">
+  <diagram id="oqCj3i5Yv13ijCg03wcg" name="第 1 页">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="UcMxpt7W0RtQMOnxC5fz-24" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeColor=#9933FF;" vertex="1" parent="1">
+          <mxGeometry x="430" y="170" width="230" height="630" as="geometry" />
+        </mxCell>
+        <mxCell id="UcMxpt7W0RtQMOnxC5fz-1" value="扫任务DB，一次拉5条新任务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UcMxpt7W0RtQMOnxC5fz-2" value="读redis位置标记" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UcMxpt7W0RtQMOnxC5fz-3" value="加锁" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UcMxpt7W0RtQMOnxC5fz-4" value="开始" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="235" y="90" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="UcMxpt7W0RtQMOnxC5fz-5" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="UcMxpt7W0RtQMOnxC5fz-4" target="UcMxpt7W0RtQMOnxC5fz-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="110" y="130" as="sourcePoint" />
+            <mxPoint x="160" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UcMxpt7W0RtQMOnxC5fz-6" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="259" y="250" as="sourcePoint" />
+            <mxPoint x="259" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UcMxpt7W0RtQMOnxC5fz-7" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="259" y="360" as="sourcePoint" />
+            <mxPoint x="259" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UcMxpt7W0RtQMOnxC5fz-8" value="释放锁" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UcMxpt7W0RtQMOnxC5fz-10" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="UcMxpt7W0RtQMOnxC5fz-1" target="UcMxpt7W0RtQMOnxC5fz-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="540" as="sourcePoint" />
+            <mxPoint x="170" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UcMxpt7W0RtQMOnxC5fz-11" value="更新任务状态为1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UcMxpt7W0RtQMOnxC5fz-12" value="" style="endArrow=classic;html=1;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="259" y="581" as="sourcePoint" />
+            <mxPoint x="430" y="270" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="259" y="610" />
+              <mxPoint x="365" y="610" />
+              <mxPoint x="365" y="270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UcMxpt7W0RtQMOnxC5fz-13" value="调视频处理接口" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UcMxpt7W0RtQMOnxC5fz-15" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="529" y="300" as="sourcePoint" />
+            <mxPoint x="529" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UcMxpt7W0RtQMOnxC5fz-16" value="更新任务状态为2，vvid为小视频id" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UcMxpt7W0RtQMOnxC5fz-18" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="UcMxpt7W0RtQMOnxC5fz-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="510" y="460" as="sourcePoint" />
+            <mxPoint x="530" y="469" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UcMxpt7W0RtQMOnxC5fz-19" value="调发表接口" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UcMxpt7W0RtQMOnxC5fz-20" value="更新任务状态为100，feedid为帖子id" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="710" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UcMxpt7W0RtQMOnxC5fz-21" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="530" y="530" as="sourcePoint" />
+            <mxPoint x="530" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UcMxpt7W0RtQMOnxC5fz-23" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="UcMxpt7W0RtQMOnxC5fz-19" target="UcMxpt7W0RtQMOnxC5fz-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="270" y="750" as="sourcePoint" />
+            <mxPoint x="320" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UcMxpt7W0RtQMOnxC5fz-25" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="810" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="UcMxpt7W0RtQMOnxC5fz-26" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" target="UcMxpt7W0RtQMOnxC5fz-25">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="530" y="800" as="sourcePoint" />
+            <mxPoint x="270" y="200" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="530" y="835" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UcMxpt7W0RtQMOnxC5fz-27" value="依次处理每条弹幕转贴新任务" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="180" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="UcMxpt7W0RtQMOnxC5fz-28" value="" style="endArrow=classic;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;dashed=1;strokeColor=#FF0000;" edge="1" parent="1" source="UcMxpt7W0RtQMOnxC5fz-20" target="UcMxpt7W0RtQMOnxC5fz-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="770" as="sourcePoint" />
+            <mxPoint x="350" y="720" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="630" y="740" />
+              <mxPoint x="630" y="270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
