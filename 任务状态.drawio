@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-05T06:02:41.021Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="niFYCP63O9_IRpM8k0QN" version="14.4.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-05T06:04:39.881Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="7baE8bej5Kzz4ZvG2Cdi" version="14.4.2" type="github">
   <diagram id="6j3dQFhbYTJ2u7eZ2uXB" name="第 1 页">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -7,10 +7,10 @@
         <mxCell id="c2irgHofqOnbrOl-X08O-2" value="0：初始状态" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="110" y="230" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="c2irgHofqOnbrOl-X08O-3" value="1：截小视频状态" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffcd28;strokeColor=#d79b00;gradientColor=#ffa500;" vertex="1" parent="1">
+        <mxCell id="c2irgHofqOnbrOl-X08O-3" value="1：截取中&lt;br&gt;状态" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffcd28;strokeColor=#d79b00;gradientColor=#ffa500;" vertex="1" parent="1">
           <mxGeometry x="450" y="230" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="c2irgHofqOnbrOl-X08O-4" value="2：发表状态" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fa6800;strokeColor=#C73500;fontColor=#ffffff;" vertex="1" parent="1">
+        <mxCell id="c2irgHofqOnbrOl-X08O-4" value="2：发表中&lt;br&gt;状态" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fa6800;strokeColor=#C73500;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="450" y="450" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="c2irgHofqOnbrOl-X08O-5" value="100：处理完成" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
